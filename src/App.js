@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Fonts from "./components/Fonts";
+import Footer from "./components/Footer";
+import ToggleModeButton from "./components/ToggleModeButton";
+import colors from "./colors";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const modeClasses = darkMode ? "bg-dark text-white" : "bg-light";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={modeClasses}>
+        <Header colors={colors} />
+        <ToggleModeButton darkMode={darkMode} setDarkMode={setDarkMode} />
+        <div className="container min-vh-100">
+          <Fonts />
+        </div>
+        <Footer />
+      </div>
+    </>
   );
 }
-
 export default App;
