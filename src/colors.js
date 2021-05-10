@@ -12,15 +12,15 @@ const colors = [
     tags: ["rouge"],
   },
   {
-    name: "Sun Burst Gradient",
-    start: "rgb(255, 191, 0)",
-    end: "rgb(255, 191, 0)",
-    tags: ["jaune"],
-  },
-  {
     name: "Sun on the Horizon",
     start: "rgb(248, 181, 0)",
     end: "rgb(248, 181, 0)",
+    tags: ["jaune"],
+  },
+  {
+    name: "Sun Burst Gradient",
+    start: "rgb(255, 191, 0)",
+    end: "rgb(255, 191, 0)",
     tags: ["jaune"],
   },
   {
@@ -36,12 +36,6 @@ const colors = [
     tags: ["bleu"],
   },
   {
-    name: "Gradient3",
-    start: "rgb(61, 3, 243, 1)",
-    end: "rgb(61, 3, 243, 1)",
-    tags: ["bleu"],
-  },
-  {
     name: "a Gradient 1",
     start: "rgb(30, 138, 17)",
     end: "rgb(30, 138, 17)",
@@ -49,20 +43,14 @@ const colors = [
   },
   {
     name: "a Gradient 2",
-    start: "rgb(30,138,17,1)",
-    end: "rgb(20,185,0,1)",
+    start: "rgb(30,138,17)",
+    end: "rgb(20,185,0)",
     tags: ["vert"],
   },
   {
     name: "a2 Gradient 3",
-    start: "rgb(20,185,0,1)",
-    end: "rgb(20,185,0,1)",
-    tags: ["vert"],
-  },
-  {
-    name: "Harvey",
-    start: "rgb(31, 64, 55)",
-    end: "rgb(153, 242, 200)",
+    start: "rgb(20,185,0)",
+    end: "rgb(20,185,0)",
     tags: ["vert"],
   },
   {
