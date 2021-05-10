@@ -6,12 +6,6 @@ const colors = [
     tags: ["rouge"],
   },
   {
-    name: "YouTube 2",
-    start: "rgb(229, 45, 39)",
-    end: "rgb(229, 45, 39)",
-    tags: ["rouge"],
-  },
-  {
     name: "YouTube 3",
     start: "rgb(229, 45, 39)",
     end: "rgb(179, 18, 23)",
@@ -30,21 +24,15 @@ const colors = [
     tags: ["jaune"],
   },
   {
-    name: "Sun Burst Gradient 2",
-    start: "rgb(253, 168, 0, 1)",
-    end: "rgb(253, 168, 0, 1)",
-    tags: ["jaune"],
-  },
-  {
     name: "Gradient",
-    start: "rgb(3, 126, 243, 1)",
-    end: "rgb(3, 126, 243, 1)",
+    start: "rgb(3, 126, 243)",
+    end: "rgb(3, 126, 243)",
     tags: ["bleu"],
   },
   {
     name: "Gradient2",
-    start: "rgb(3, 126, 243, 1)",
-    end: "rgb(61, 3, 243, 1)",
+    start: "rgb(3, 126, 243)",
+    end: "rgb(61, 3, 243)",
     tags: ["bleu"],
   },
   {
@@ -90,22 +78,10 @@ const colors = [
     tags: ["bleu", "vert"],
   },
   {
-    name: "Citrus Peel",
-    start: "rgb(253, 200, 48)",
-    end: "rgb(243, 115, 53)",
-    tags: ["jaune", "orange"],
-  },
-  {
     name: "Ibiza Sunset",
     start: "rgb(255, 106, 0)",
     end: "rgb(255, 106, 0)",
     tags: ["fuchsia", "rose", "orange"],
-  },
-  {
-    name: "Eigengrau Gradient",
-    start: "rgb(72, 72, 79)",
-    end: "rgb(72, 72, 79)",
-    tags: ["gris fonce"],
   },
   {
     name: "Noir",
@@ -142,12 +118,6 @@ const colors = [
     start: "rgb(38, 87, 235)",
     end: "rgb(38, 87, 235)",
     tags: ["bleu"],
-  },
-  {
-    name: "Dance To Forget",
-    start: "rgb(255, 78, 80)",
-    end: "rgb(249, 212, 35)",
-    tags: ["orange", "jaune"],
   },
   {
     name: "Green Beach",
