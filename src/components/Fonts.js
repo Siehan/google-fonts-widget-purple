@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import CardFont from "./CardFont";
 import Sidebar from "./Sidebar";
 
-//importer le site de google gérer le cash
+// importer le site de google gérer le cash
 
 const Fonts = () => {
   const [data, setData] = useState([]);
